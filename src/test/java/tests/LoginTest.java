@@ -11,6 +11,6 @@ public class LoginTest extends BaseTests{
     public void verifySuccessfulLogin() {
         LoginPage loginPage = new LoginPage(driver);
         assertEquals(loginPage.login("admin@hec.com",
-                "hecabc123").getTitle(), "Dashboard | EnergyServices - Admin | EnergyService");
+                "hecabc123").getTitle(), "Dashboard | EnergyServices - Admin | EnergyServices");
     }
 }
